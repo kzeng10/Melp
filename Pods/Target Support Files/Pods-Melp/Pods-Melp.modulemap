@@ -1,0 +1,6 @@
+framework module Pods_Melp {
+  umbrella header "Pods-Melp-umbrella.h"
+
+  export *
+  module * { export * }
+}

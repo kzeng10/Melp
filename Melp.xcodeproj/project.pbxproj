@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5196000A0F8069804D1BEEB8 /* libPods-Melp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D3E87E175EA1487B73A0C /* libPods-Melp.a */; };
 		5760A8AE1B9BAC930003A5E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760A8AD1B9BAC930003A5E0 /* AppDelegate.swift */; };
 		5760A8B01B9BAC930003A5E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760A8AF1B9BAC930003A5E0 /* ViewController.swift */; };
 		5760A8B31B9BAC930003A5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5760A8B11B9BAC930003A5E0 /* Main.storyboard */; };
@@ -16,6 +15,7 @@
 		5760A8C41B9BAC930003A5E0 /* MelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760A8C31B9BAC930003A5E0 /* MelpTests.swift */; };
 		57788E111B9BB73E002729A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57788E101B9BB73E002729A1 /* CoreLocation.framework */; };
 		57788E131B9BD35B002729A1 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57788E121B9BD35B002729A1 /* Secret.swift */; };
+		E1D79478A12F06C7FF6CE6F9 /* Pods_Melp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1319B3CF010583BD0C64EC3 /* Pods_Melp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		406D3E87E175EA1487B73A0C /* libPods-Melp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Melp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA94BB0DD8D0B50D641A789 /* Pods-Melp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Melp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Melp/Pods-Melp.debug.xcconfig"; sourceTree = "<group>"; };
 		5760A8A81B9BAC930003A5E0 /* Melp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Melp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5760A8AC1B9BAC930003A5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		57788E101B9BB73E002729A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		57788E121B9BD35B002729A1 /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		A23DDDC88C45F14D8BA26F50 /* Pods-Melp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Melp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Melp/Pods-Melp.release.xcconfig"; sourceTree = "<group>"; };
+		D1319B3CF010583BD0C64EC3 /* Pods_Melp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Melp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57788E111B9BB73E002729A1 /* CoreLocation.framework in Frameworks */,
-				5196000A0F8069804D1BEEB8 /* libPods-Melp.a in Frameworks */,
+				E1D79478A12F06C7FF6CE6F9 /* Pods_Melp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				57788E101B9BB73E002729A1 /* CoreLocation.framework */,
-				406D3E87E175EA1487B73A0C /* libPods-Melp.a */,
+				D1319B3CF010583BD0C64EC3 /* Pods_Melp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +155,7 @@
 				5760A8A51B9BAC930003A5E0 /* Frameworks */,
 				5760A8A61B9BAC930003A5E0 /* Resources */,
 				7FBDC4A98D721C66DB64A1FA /* Copy Pods Resources */,
+				61E39C5DBDC4DE4F2B73F1F8 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +255,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		61E39C5DBDC4DE4F2B73F1F8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Melp/Pods-Melp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7FBDC4A98D721C66DB64A1FA /* Copy Pods Resources */ = {
