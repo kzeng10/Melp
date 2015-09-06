@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5196000A0F8069804D1BEEB8 /* libPods-Melp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D3E87E175EA1487B73A0C /* libPods-Melp.a */; };
+		5760A8AE1B9BAC930003A5E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760A8AD1B9BAC930003A5E0 /* AppDelegate.swift */; };
+		5760A8B01B9BAC930003A5E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760A8AF1B9BAC930003A5E0 /* ViewController.swift */; };
+		5760A8B31B9BAC930003A5E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5760A8B11B9BAC930003A5E0 /* Main.storyboard */; };
+		5760A8B51B9BAC930003A5E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5760A8B41B9BAC930003A5E0 /* Images.xcassets */; };
+		5760A8B81B9BAC930003A5E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5760A8B61B9BAC930003A5E0 /* LaunchScreen.xib */; };
+		5760A8C41B9BAC930003A5E0 /* MelpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5760A8C31B9BAC930003A5E0 /* MelpTests.swift */; };
+		57788E111B9BB73E002729A1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57788E101B9BB73E002729A1 /* CoreLocation.framework */; };
+		57788E131B9BD35B002729A1 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57788E121B9BD35B002729A1 /* Secret.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5760A8BE1B9BAC930003A5E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5760A8A01B9BAC930003A5E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5760A8A71B9BAC930003A5E0;
+			remoteInfo = Melp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		406D3E87E175EA1487B73A0C /* libPods-Melp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Melp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA94BB0DD8D0B50D641A789 /* Pods-Melp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Melp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Melp/Pods-Melp.debug.xcconfig"; sourceTree = "<group>"; };
+		5760A8A81B9BAC930003A5E0 /* Melp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Melp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5760A8AC1B9BAC930003A5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5760A8AD1B9BAC930003A5E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5760A8AF1B9BAC930003A5E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5760A8B21B9BAC930003A5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5760A8B41B9BAC930003A5E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5760A8B71B9BAC930003A5E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5760A8BD1B9BAC930003A5E0 /* MelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5760A8C21B9BAC930003A5E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5760A8C31B9BAC930003A5E0 /* MelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelpTests.swift; sourceTree = "<group>"; };
+		57788E101B9BB73E002729A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		57788E121B9BD35B002729A1 /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		A23DDDC88C45F14D8BA26F50 /* Pods-Melp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Melp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Melp/Pods-Melp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5760A8A51B9BAC930003A5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57788E111B9BB73E002729A1 /* CoreLocation.framework in Frameworks */,
+				5196000A0F8069804D1BEEB8 /* libPods-Melp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5760A8BA1B9BAC930003A5E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5760A89F1B9BAC920003A5E0 = {
+			isa = PBXGroup;
+			children = (
+				5760A8AA1B9BAC930003A5E0 /* Melp */,
+				5760A8C01B9BAC930003A5E0 /* MelpTests */,
+				5760A8A91B9BAC930003A5E0 /* Products */,
+				7CDD2FF7BB5F40DAF0852DA6 /* Pods */,
+				9E97F4B080F5B8A145FA252B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5760A8A91B9BAC930003A5E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5760A8A81B9BAC930003A5E0 /* Melp.app */,
+				5760A8BD1B9BAC930003A5E0 /* MelpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5760A8AA1B9BAC930003A5E0 /* Melp */ = {
+			isa = PBXGroup;
+			children = (
+				5760A8AD1B9BAC930003A5E0 /* AppDelegate.swift */,
+				57788E121B9BD35B002729A1 /* Secret.swift */,
+				5760A8AF1B9BAC930003A5E0 /* ViewController.swift */,
+				5760A8B11B9BAC930003A5E0 /* Main.storyboard */,
+				5760A8B41B9BAC930003A5E0 /* Images.xcassets */,
+				5760A8B61B9BAC930003A5E0 /* LaunchScreen.xib */,
+				5760A8AB1B9BAC930003A5E0 /* Supporting Files */,
+			);
+			path = Melp;
+			sourceTree = "<group>";
+		};
+		5760A8AB1B9BAC930003A5E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5760A8AC1B9BAC930003A5E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5760A8C01B9BAC930003A5E0 /* MelpTests */ = {
+			isa = PBXGroup;
+			children = (
+				5760A8C31B9BAC930003A5E0 /* MelpTests.swift */,
+				5760A8C11B9BAC930003A5E0 /* Supporting Files */,
+			);
+			path = MelpTests;
+			sourceTree = "<group>";
+		};
+		5760A8C11B9BAC930003A5E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5760A8C21B9BAC930003A5E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CDD2FF7BB5F40DAF0852DA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AA94BB0DD8D0B50D641A789 /* Pods-Melp.debug.xcconfig */,
+				A23DDDC88C45F14D8BA26F50 /* Pods-Melp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E97F4B080F5B8A145FA252B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57788E101B9BB73E002729A1 /* CoreLocation.framework */,
+				406D3E87E175EA1487B73A0C /* libPods-Melp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5760A8A71B9BAC930003A5E0 /* Melp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5760A8C71B9BAC930003A5E0 /* Build configuration list for PBXNativeTarget "Melp" */;
+			buildPhases = (
+				3080C549BBAB2785C6DF1B73 /* Check Pods Manifest.lock */,
+				5760A8A41B9BAC930003A5E0 /* Sources */,
+				5760A8A51B9BAC930003A5E0 /* Frameworks */,
+				5760A8A61B9BAC930003A5E0 /* Resources */,
+				7FBDC4A98D721C66DB64A1FA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Melp;
+			productName = Melp;
+			productReference = 5760A8A81B9BAC930003A5E0 /* Melp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5760A8BC1B9BAC930003A5E0 /* MelpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5760A8CA1B9BAC930003A5E0 /* Build configuration list for PBXNativeTarget "MelpTests" */;
+			buildPhases = (
+				5760A8B91B9BAC930003A5E0 /* Sources */,
+				5760A8BA1B9BAC930003A5E0 /* Frameworks */,
+				5760A8BB1B9BAC930003A5E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5760A8BF1B9BAC930003A5E0 /* PBXTargetDependency */,
+			);
+			name = MelpTests;
+			productName = MelpTests;
+			productReference = 5760A8BD1B9BAC930003A5E0 /* MelpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5760A8A01B9BAC930003A5E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kevin Zeng";
+				TargetAttributes = {
+					5760A8A71B9BAC930003A5E0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5760A8BC1B9BAC930003A5E0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5760A8A71B9BAC930003A5E0;
+					};
+				};
+			};
+			buildConfigurationList = 5760A8A31B9BAC930003A5E0 /* Build configuration list for PBXProject "Melp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5760A89F1B9BAC920003A5E0;
+			productRefGroup = 5760A8A91B9BAC930003A5E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5760A8A71B9BAC930003A5E0 /* Melp */,
+				5760A8BC1B9BAC930003A5E0 /* MelpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5760A8A61B9BAC930003A5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5760A8B31B9BAC930003A5E0 /* Main.storyboard in Resources */,
+				5760A8B81B9BAC930003A5E0 /* LaunchScreen.xib in Resources */,
+				5760A8B51B9BAC930003A5E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5760A8BB1B9BAC930003A5E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3080C549BBAB2785C6DF1B73 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7FBDC4A98D721C66DB64A1FA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Melp/Pods-Melp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5760A8A41B9BAC930003A5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5760A8B01B9BAC930003A5E0 /* ViewController.swift in Sources */,
+				57788E131B9BD35B002729A1 /* Secret.swift in Sources */,
+				5760A8AE1B9BAC930003A5E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5760A8B91B9BAC930003A5E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5760A8C41B9BAC930003A5E0 /* MelpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5760A8BF1B9BAC930003A5E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5760A8A71B9BAC930003A5E0 /* Melp */;
+			targetProxy = 5760A8BE1B9BAC930003A5E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5760A8B11B9BAC930003A5E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5760A8B21B9BAC930003A5E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5760A8B61B9BAC930003A5E0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5760A8B71B9BAC930003A5E0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5760A8C51B9BAC930003A5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5760A8C61B9BAC930003A5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5760A8C81B9BAC930003A5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA94BB0DD8D0B50D641A789 /* Pods-Melp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Melp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5760A8C91B9BAC930003A5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A23DDDC88C45F14D8BA26F50 /* Pods-Melp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Melp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5760A8CB1B9BAC930003A5E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melp.app/Melp";
+			};
+			name = Debug;
+		};
+		5760A8CC1B9BAC930003A5E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MelpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Melp.app/Melp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5760A8A31B9BAC930003A5E0 /* Build configuration list for PBXProject "Melp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5760A8C51B9BAC930003A5E0 /* Debug */,
+				5760A8C61B9BAC930003A5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5760A8C71B9BAC930003A5E0 /* Build configuration list for PBXNativeTarget "Melp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5760A8C81B9BAC930003A5E0 /* Debug */,
+				5760A8C91B9BAC930003A5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5760A8CA1B9BAC930003A5E0 /* Build configuration list for PBXNativeTarget "MelpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5760A8CB1B9BAC930003A5E0 /* Debug */,
+				5760A8CC1B9BAC930003A5E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5760A8A01B9BAC930003A5E0 /* Project object */;
+}
