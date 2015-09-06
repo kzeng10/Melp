@@ -46,7 +46,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         println(longitude)
         
         var camera = GMSCameraPosition.cameraWithLatitude(latitude,
-                longitude:longitude, zoom:6)
+                longitude:longitude, zoom:13)
         var mapView = GMSMapView.mapWithFrame(CGRectZero, camera:camera)
         var marker = GMSMarker()
         marker.position = camera.target
